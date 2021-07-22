@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif;
+}
+
+.center{
+  max-width: 1100px;
+  margin: 0%;
+  padding: 0 2%;
+  display: flex;
+}
+
+header{
+  background-color: white;
+  padding: 20px 0;
+  border-bottom: 1px solid rgb(200 , 200 , 200);
+}
+
+.logo{
+color: #16507b;
+}
+.logo h2{
+  font-weight: normal;
+  font-size: 22px;
+}
+.menu{
+ width: 80%;
+ text-align: right;
+}
+.menu a{
+  color: #124265;
+  font-size: 14px;
+  text-decoration: none; /* tira as barrinhas dos links*/
+  margin-right: 30px;
+  transition: 0.4s;
+}
+
+.menu a:hover{
+color: #007bff;
+}
+
+.menu .bnt-menu{
+  background-color: #007bff;
+  display:inline-block;
+  padding: 8px 18px;
+  color: white;
+  border-radius:8px;
+} /* configurações do button*/
+
+.menu .bnt-menu:hover{
+  background-color: #124265;
+  color: white;
+}
+
+/*
+section sobre
+*/
+.sobre{
+ background-color: aliceblue;
+ color: #124265;
+ margin: 0%;
+ padding: 12px;
+
+}
+
+.sobre h2{
+ padding: 2%;
+ color: black;
+}
+
+/* section conteúdo*/
+
+.conteúdo div{
+  width: 33%;
+  height: 40%;
+  margin: 0;
+  padding: 70px;
+  display: inline-block;
+}
+.conteúdo img{
+  width: 200px;
+  height: 200px;
+}
+.conteúdo h2{
+  font-family: sans-serif;
+  color: white;
+  padding: 1%;
+}
+.cont1{
+ background-color: #16507b;
+}
+.cont2{
+ background-color: #124265;
+}
+.cont3{
+background-color: #16507b;
+}
+
+/* section resenha */
+.resenha{
+  background-color: aliceblue;
+  color: #124265;
+  margin: 0%;
+  padding: 12px;
+ 
+ }
+ 
+ .resenha h2{
+  padding: 2%;
+  color: black;
+ }
+
+.resenha img{
+  width: 80%;
+  height: 80%;
+  padding: 4%;
+}
+
+/*footer*/
+
+footer{
+  padding: 20px;
+  margin: 0%;
+  background-color: #124265;
+  color: white;
+  text-align: center;
+}
+
+footer div{
+  width: 33%;
+  height: 40%;
+  margin: 20px;
+  padding: 60px;
+  display: inline-block;
+}
+
+
